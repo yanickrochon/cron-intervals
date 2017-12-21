@@ -1,0 +1,31 @@
+{
+  "name": "cron-intervals",
+  "version": "1.0.0",
+  "description": "Execute a sequence of tasks starting at specific periods.",
+  "main": "src/job.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanickrochon/cron-intervals.git"
+  },
+  "keywords": [
+    "cron",
+    "intervals",
+    "tasks",
+    "manager"
+  ],
+  "author": "Yanick Rochon <yanick.rochon@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanickrochon/cron-intervals/issues"
+  },
+  "homepage": "https://github.com/yanickrochon/cron-intervals#readme",
+  "dependencies": {
+    "cron-parser": "^2.4.3"
+  },
+  "devDependencies": {
+    "jest": "^22.0.3"
+  }
+}
