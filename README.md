@@ -91,7 +91,10 @@ THe job extends the [`CronJob`](https://www.npmjs.com/package/cron) interface.
   * **duration** : *Number*
     The interval duration in milliseconds
 
-  * **onComplete** : *Function*
+  * **onBegin** : *Function*
+    The callback to call when the interval has started. This function should return immediately.
+
+  * **onEnd** : *Function*
     The callback to call when the interval is over. This function should return immediately.
 
 * **start** : *Boolean*
